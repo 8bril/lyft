@@ -156,7 +156,7 @@ header > div > .menu-item {
 	height: 560px;
     background: linear-gradient(#76278F, #2B1E66); /* Haciendo el degradado de fondo */
     color: #fff;
-    margin: 0; top;
+    margin: -1px; top;
     padding-top: 10px;
     padding-bottom: 55px;
 }
@@ -195,18 +195,22 @@ header > div > .menu-item {
 	letter-spacing: 0.9px;
 }
 
-/* Dando estilo al primer vídeo y su información */
+/* Creando Sección de vídeo con su contenido */
 
-.video-section-1 {
-	height: 463px;
+#section-video-one {
+	display: flex;
+	flex-direction: row;
+	margin: -4px; top;
 }
 
-.content-video-1 {
-	float: left;
+#section-video-two {
+	display: flex;
+	flex-direction: row;
+	margin: -4px; top;
 }
 
-.video1 {
-	float: right;
+#section-video-three {
+	display: flex;
+	flex-direction: row;
+	margin: 0; top;
 }
-
-
