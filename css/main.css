@@ -1,3 +1,212 @@
 /*
  * Estilos de tu proyecto
  */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0; top;
+}
+
+/* Daremos las propidades y valores para posicionar el header con las indicaciones */
+
+ header {
+  background-color: transparent;
+  position: fixed; /* El valor fixed permite que el header quede por encima de los elementos de la página*/
+  width: 100%;
+  padding-bottom: 15px;
+  color: #fff;
+}
+
+
+header > .menu-list {
+ 
+  margin: 48px 148px 10px 10px;
+}
+
+header > div > .menu-item {
+  margin: 0px 11px 0px 27px;
+  font-size: 18px;
+}
+
+.m-bottom {
+	border: 1px solid white;
+	border-radius: 10%;
+	padding: 10px 19px 10px 19px;
+
+}
+
+.menu-item:hover {
+	color: #FF06B8;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+
+}
+
+.logo {
+  
+  width: 62px;
+  margin: 32px 0px 14px 72px;
+}
+
+.logo:hover {
+
+	background-color: #FF06B8;
+}
+/* Haciendo la primer sección del tema */
+
+#home {
+	background-image: url("../assets/images/hero.gif");
+    height: 550px;
+    width: 100%;
+    background-size: 100% 100%;
+    padding: 10px;
+}
+
+#home > .driver {
+	
+	position: relative;
+	top: 115px;
+	left: 748px;
+	height: 420px;
+	width: 530px;
+	background-color: white;
+}
+
+.data {
+	padding: 19px 0px 1px 66px;
+}
+
+.title {
+	 color: #36277E;
+	 font-size: 40px;
+     font-weight: 700;
+     margin-bottom: 8px;
+}
+
+.sub-title {
+	 color: #36277E;
+	 font-size: 13px;
+     font-weight: 300;
+     margin-top: 0px;
+}
+
+
+.input {
+
+	 border: none;
+	 height: 45px;
+     width: 420px;
+     font-size: 18px;
+     color: #babfc6;
+     padding-top: 5px;
+     border-bottom: 1px solid #36277E;
+     margin-bottom: 40px;
+     outline: none;
+ }
+
+ .btn-driver  {
+     background: #FF00BF;
+     color: white;
+     text-decoration: none;
+     height: 50px;
+     width: 184;
+     border-radius: 10px;
+     padding: 14px 20px 14px 20px;
+     margin: 20px 15px 20px 0px;
+ }
+
+ .btn-sign {
+
+ 	 color: #718097;
+     padding-top: 20px;
+     margin: 20px 0px 20px 10px;
+ }
+
+ .btn-sign:hover {
+    color: #FF00BF;
+ 
+ }
+
+.buttons {
+	display: inline-block;
+}
+
+.terms {
+	color: #b7b8bc;
+	font-size: 11px;
+	line-height: 100%;
+	padding-top: 25px;
+}
+
+.terms a {
+	color: #FF00BF;
+	text-decoration: none;
+
+}
+
+/* Haciendo la tercera sección del tema */
+
+.about {
+	height: 560px;
+    background: linear-gradient(#76278F, #2B1E66); /* Haciendo el degradado de fondo */
+    color: #fff;
+    margin: 0; top;
+    padding-top: 10px;
+    padding-bottom: 55px;
+}
+
+
+.about .info {
+  
+   float: left;
+   padding-left: 142px;
+   padding-top: 18px;
+}
+
+.info .info-text {
+	
+	margin: 31px 8px 10px 3px; 
+}
+
+.phone {
+	
+	float: right;
+	margin-right: 123px;
+	margin-top: 25px;
+}
+
+.info h1 {
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.info b {
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.info p {
+	letter-spacing: 0.9px;
+}
+
+/* Dando estilo al primer vídeo y su información */
+
+.video-section-1 {
+	height: 463px;
+}
+
+.content-video-1 {
+	float: left;
+}
+
+.video1 {
+	float: right;
+}
+
+
