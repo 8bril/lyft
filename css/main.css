@@ -207,10 +207,53 @@ header > div > .menu-item {
 	display: flex;
 	flex-direction: row;
 	margin: -4px; top;
+
 }
 
 #section-video-three {
 	display: flex;
 	flex-direction: row;
 	margin: 0; top;
+}
+
+.text-content-one {
+	 text-align: left;
+     margin-left: 50px;
+     margin-right: 54px;
+     margin-top: 30px;
+}
+
+.text-content-two {
+	 text-align: left;
+     margin-top: 30px;
+     margin-left: 80px;
+}
+
+.text-content-three {
+
+	 text-align: left;
+     margin-left: 50px;
+     margin-right: 54px;
+     margin-top: 30px;
+}
+
+.title-one {
+	 font-size: 12px;
+     margin-bottom: -18px;
+     text-transform: uppercase;
+}
+
+.title-two {
+     padding-top: 0px;
+     font-size: 25px;
+     font-weight: 600;
+     padding-bottom: 6px;
+     text-transform: uppercase;
+     transform:scaley(1.1);
+ }
+ 
+ .text-info {
+     font-size: 15px;
+     padding-bottom: 3px;
+     font-weight: 400;
 }
