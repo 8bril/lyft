@@ -55,9 +55,9 @@ header > div > .menu-item {
 }
 
 .logo:hover {
-
 	background-color: #FF06B8;
 }
+
 /* Haciendo la primer sección del tema */
 
 #home {
@@ -259,14 +259,69 @@ header > div > .menu-item {
 
 /* Haciendo el footer */
 
-#foot-content {
-	height: 510px;
+footer {
+	height: 500px;
 	background-color: #333545;
 	margin: -4px;
 	text-align: center;
+	color: white;
+
 }
+
+footer a {
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #FF00BF;
+}
+
+
+footer hr {
+	width: 620px;
+	margin-top: 28px;
+
+}
+
 
 .top-footer {
 	display: flex;
 	flex-direction: row;
+	padding: 60px;
+	color: white;
+
+}
+
+.login {
+	padding-left: 40px;
+	line-height: 30px;
+}
+
+.partner {
+	padding-left: 180px;
+	line-height: 30px;
+}
+
+.learn {
+	padding-left: 180px;
+	line-height: 30px;
+
+}
+
+.icons {
+	padding-left: 200px;
+	line-height: 45px;
+	margin-top: 24px;
+
+}
+
+.fa {
+	padding-left: 30px;
+	height: 25px;
+	width: 25px;
+
+}
+
+.copyright {
+	padding-top: 13px;
 }
